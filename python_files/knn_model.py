@@ -119,6 +119,7 @@ def load_data(labeled_path="product_images.csv",
               unlabeled_path="product_images_for_prediction.csv"):
     """
     Load both datasets from CSV and extract multi-scale HOG + pixel features.
+    CSV files must be in the working directory when the script is run.
 
     Returns
     -------

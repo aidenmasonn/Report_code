@@ -31,6 +31,7 @@ from sklearn.preprocessing import normalize
 from python_files.knn_model import LABEL_NAMES, PIXEL_COLS
 
 print("Loading data ...", flush=True)
+# CSV files must be in the same folder as this script
 df = pd.read_csv("product_images.csv")
 X_raw = df[PIXEL_COLS].values.astype(np.float32)   # shape (20000, 784)
 y = df["label"].values.astype(int)

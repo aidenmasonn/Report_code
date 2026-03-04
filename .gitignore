@@ -1,0 +1,17 @@
+# Data files
+*.csv
+
+# Generated figures
+figure*.png
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Personal notes
+z*.txt
+report_notes_*.md
+outputs.txt

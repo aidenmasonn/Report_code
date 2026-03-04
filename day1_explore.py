@@ -34,6 +34,7 @@ PIXEL_COLS = [f"pixel_{i}" for i in range(784)]
 # ---------------------------------------------------------------------------
 # 1. Load data
 # ---------------------------------------------------------------------------
+# CSV files must be in the same folder as this script
 df = pd.read_csv("product_images.csv")
 df_pred = pd.read_csv("product_images_for_prediction.csv")
 

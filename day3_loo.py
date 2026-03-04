@@ -39,10 +39,7 @@ from python_files.knn_model import LABEL_NAMES, load_data
 # 0. Load data and draw a stratified subsample
 # ---------------------------------------------------------------------------
 print("Loading data...")
-X, y, X_pred, df, df_pred = load_data(
-    labeled_path="../CSV/product_images.csv",
-    unlabeled_path="../CSV/product_images_for_prediction.csv",
-)
+X, y, X_pred, df, df_pred = load_data()
 print(f"  Full labeled set: {X.shape}\n")
 
 # Stratified subsample: 50 images per class (500 total).
